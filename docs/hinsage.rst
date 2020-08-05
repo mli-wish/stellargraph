@@ -13,7 +13,7 @@ The feature update rule for homogeneous graphs is, for mean aggregator:
 
 1. Aggregation of features from the neighbours of node :math:`v`:
 
-   :math:`{h^{k}}_{N(v)} = \frac{1}{|N(v)|}D_{p}\lbrack{h_{u}}^{k - 1}\rbrack`
+   :math:`{h^{k}}_{N(v)} = \frac{1}{|N(v)|}\sum_{u \in N(v)}D_{p}\lbrack{h_{u}}^{k - 1}\rbrack`
 
 2. Forward pass through layer :math:`k`:
 
